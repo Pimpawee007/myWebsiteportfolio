@@ -1221,6 +1221,7 @@ section {
   margin-top: 15px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap; /* เพิ่มเพื่อให้มีการห่อบรรทัด */
 }
 
 .contact .social-links a {
@@ -1233,6 +1234,18 @@ section {
   padding: 14px;
   border-radius: 50px;
   border: 1px solid #dde1e4;
+}
+
+@media (max-width: 768px) {
+  .contact .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact .social-links a,
+  .contact .social-links span {
+    margin: 5px 0;
+  }
 }
 
 .contact .social-links a:hover {
