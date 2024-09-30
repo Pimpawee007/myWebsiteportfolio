@@ -1221,15 +1221,20 @@ section {
   margin-top: 15px;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* เพิ่มเพื่อให้มีการห่อบรรทัด */
+  flex-wrap: wrap;
 }
+
+.contact .social-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
 
 .contact .social-links a {
   font-size: 18px;
   display: inline-block;
   color: #687683;
   line-height: 1;
-  margin: 0 8px;
+  margin-right: 8px;
   transition: 0.3s;
   padding: 14px;
   border-radius: 50px;
@@ -1237,14 +1242,13 @@ section {
 }
 
 @media (max-width: 768px) {
-  .contact .social-links {
-    flex-direction: column;
-    align-items: center;
+  .contact .social-item {
+    margin: 5px;
   }
-
-  .contact .social-links a,
-  .contact .social-links span {
-    margin: 5px 0;
+  
+  .contact .social-links a {
+    padding: 10px;
+    font-size: 16px;
   }
 }
 
