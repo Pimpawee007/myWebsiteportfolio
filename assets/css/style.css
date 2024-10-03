@@ -1,11 +1,3 @@
-/**
-* Template Name: Laura
-* Updated: Mar 12 2024 with Bootstrap v5.3.3
-* Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -36,9 +28,14 @@ h6 {
 }
 
 .quote{
-  color: #af0000;
-  font-weight: 400;
+  color: #cf2828;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-decoration-color: rgb(225, 184, 0);
+  text-shadow:-1px -1px #FFFFFF, 1px 1px #333333;
 }
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -632,44 +629,17 @@ section {
   min-height: 500px;
 }
 
-.about .skills-content {
-  margin-top: 30px;
+.mySkillTopic{
+  font-weight: 600;
+  font-size: 25px;
+  color: #2b50b4;
 }
 
-.about .skills-content .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
-}
-
-.about .skills-content .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 3px 0;
-  text-transform: uppercase;
-  display: block;
+.mySkill p{
+  font-size: 18px;
   font-weight: 500;
-  font-family: "Kanit";
-  font-size: 15px;
-  font-style: italic;
-  color: #3b434a;
-}
-
-.about .skills-content .progress .skill .val {
-  float: right;
-  font-style: normal;
-  font-size: 15px;
-}
-
-.about .skills-content .progress-bar-wrap {
-  background: #e6e8eb;
-}
-
-.about .skills-content .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #4e6dac;
+  text-align: center;
+  line-height: 8px;
 }
 
 /*--------------------------------------------------------------
